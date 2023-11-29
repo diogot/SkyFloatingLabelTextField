@@ -420,7 +420,7 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
     }
 
     fileprivate func configureDefaultLineHeight() {
-        let onePixel: CGFloat = 1.0 / UIScreen.main.scale
+        let onePixel: CGFloat = 1.0 / 1.0
         lineHeight = 2.0 * onePixel
         selectedLineHeight = 2.0 * self.lineHeight
     }
